@@ -2,15 +2,12 @@
 
 Modality 3: Image classification using transfer learning on CIFAR-100.
 
----
-
 ## Overview
 
 This is my code for the perception modality of [TLS'e Racing](https://tlseracing.fr/)'s driverless division [hackathon](https://github.com/IsmaTIBU/TLSeRacing_Hackathon).
 The notebook finetunes a MobileNetV2 model pretrained on ImageNet to classify images from the CIFAR-100 dataset (100 classes).
 The approach uses a two-phase training strategy — first training only the classification head, then fine-tuning the upper layers of the backbone — with data augmentation to improve generalization.
 
----
 
 ## How to Run
 
@@ -37,7 +34,6 @@ The approach uses a two-phase training strategy — first training only the clas
 
 A GPU is strongly recommended. The notebook automatically configures GPU memory growth and enables mixed precision if available.
 
----
 
 ## Model
 
@@ -47,7 +43,7 @@ Training runs in two phases. In phase 1, the backbone is fully frozen and only t
 
 Images are resized from 32×32 to 224×224 and augmented during training with random flips, rotations, zooms, brightness, and contrast adjustments.
 
----
+
 
 ## Results
 
@@ -55,7 +51,6 @@ Test accuracy on CIFAR-100: **~75%**
 
 You can see the final presentation (including the rest of the hackathon's modalities) in `presentation.pdf`.
 
----
 
 ## Stack
 
