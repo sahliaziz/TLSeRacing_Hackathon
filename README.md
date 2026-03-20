@@ -14,7 +14,7 @@ The approach uses a two-phase training strategy — first training only the clas
 
 ## How to Run
 
-1. Clone the repository and navigate to the perception folder:
+1. Clone the repository:
    ```bash
    git clone https://github.com/sahliaziz/TLSeRacing_Hackathon.git
    cd TLSeRacing_Hackathon
@@ -51,9 +51,9 @@ Images are resized from 32×32 to 224×224 and augmented during training with ra
 
 ## Results
 
-Test accuracy on CIFAR-100: **75%**
+Test accuracy on CIFAR-100: **~75%**
 
-The final presentation with detailed results and analysis is included in this repository.
+You can see the final presentation (including the rest of the hackathon's modalities) in `presentation.pdf`.
 
 ---
 
