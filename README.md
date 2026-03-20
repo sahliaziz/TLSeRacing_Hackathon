@@ -1,4 +1,4 @@
-# TLSeRacing Hackathon — Perception Module
+# TLSeRacing Hackathon — Perception
 
 Modality 3: Image classification using transfer learning on CIFAR-100.
 
